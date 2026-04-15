@@ -1,30 +1,26 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Bena | Artisan Healthy Bites from Tunisia</title>
-  <meta name="description" content="Bena – wholesome, handcrafted bites from Tunisia. Ancient grains, olive oil, and wild honey." />
-
+  <meta name="description" content="Bena – wholesome, handcrafted bites from Tunisia." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
-    rel="stylesheet"
-  />
-
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- ── Navbar ── -->
+
   <nav id="navbar" class="navbar">
     <div class="nav-container">
-      <a href="#home" class="nav-logo" aria-label="Bena home">
-        <img src="pics/logo.jpeg" alt="Bena Logo" class="nav-logo-img" />
-        Bena
-      </a>
-
+      <a href="#home" class="nav-logo"><img src="pics/logo.jpeg" alt="Benna Logo" class="nav-logo-img" />Benna</a>
       <div class="nav-links" id="navLinks">
         <a href="#home">Home</a>
         <a href="#story">Story</a>
@@ -33,127 +29,89 @@
         <a href="#reviews">Reviews</a>
         <a href="#contact">Contact</a>
 
-        <a href="#shop" class="btn nav-cta" aria-label="Shop Now">
-          <strong>Shop Now</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </a>
 
-        <a href="login.html" class="nav-join">
-          Join the Circle
-          <span class="star-1"></span>
-          <span class="star-2"></span>
-          <span class="star-3"></span>
-          <span class="star-4"></span>
-          <span class="star-5"></span>
-          <span class="star-6"></span>
+      </div>
+      <div class="nav-links2" id="navLinks2">
+
+        <a href="#shop" class="nav-join">
+          <strong>Shop Now</strong>
+          <span class="star-1"></span><span class="star-2"></span><span class="star-3"></span>
+          <span class="star-4"></span><span class="star-5"></span><span class="star-6"></span>
+
+        </a>
+        <a href="login.html" class="nav-join"> <strong>Join the Circle </strong>
+          <span class="star-1"></span><span class="star-2"></span><span class="star-3"></span>
+          <span class="star-4"></span><span class="star-5"></span><span class="star-6"></span>
         </a>
       </div>
-
       <div class="nav-actions">
-        <!-- Dark mode toggle -->
         <div class="toggle-container">
           <div class="toggle-wrap">
             <input class="toggle-input" id="holo-toggle" type="checkbox" />
             <label class="toggle-track" for="holo-toggle">
-              <div class="track-lines"><div class="track-line"></div></div>
-              <div class="toggle-thumb">
-                <div class="thumb-core"></div>
-                <div class="thumb-inner"></div>
-                <div class="thumb-scan"></div>
-                <div class="thumb-particles">
-                  <div class="thumb-particle"></div>
-                  <div class="thumb-particle"></div>
-                  <div class="thumb-particle"></div>
-                  <div class="thumb-particle"></div>
-                  <div class="thumb-particle"></div>
-                </div>
-              </div>
-              <div class="toggle-data">
-                <div class="data-text off">🌙</div>
-                <div class="data-text on">☀️</div>
-                <div class="status-indicator off"></div>
-                <div class="status-indicator on"></div>
-              </div>
-              <div class="energy-rings">
-                <div class="energy-ring"></div>
-                <div class="energy-ring"></div>
-                <div class="energy-ring"></div>
-              </div>
-              <div class="interface-lines">
-                <div class="interface-line"></div>
-                <div class="interface-line"></div>
-                <div class="interface-line"></div>
-                <div class="interface-line"></div>
-                <div class="interface-line"></div>
-                <div class="interface-line"></div>
-              </div>
-              <div class="toggle-reflection"></div>
-              <div class="holo-glow"></div>
+              <div class="toggle-thumb"></div>
             </label>
           </div>
         </div>
-
-        <button
-          class="nav-toggle"
-          id="menuToggle"
-          type="button"
-          aria-label="Open menu"
-          aria-controls="navLinks"
-          aria-expanded="false"
-        >
-          <span></span><span></span><span></span>
-        </button>
       </div>
     </div>
   </nav>
 
-  <!-- ── Marquee Banner ── -->
-  <div class="marquee-banner">
-    <div class="marquee-track">
-      <div class="marquee-item"><b>NEW</b> Spring Collection 2026</div>
-      <div class="marquee-item">Ethically Sourced Ingredients</div>
-      <div class="marquee-item">Free Shipping Over $40</div>
-      <div class="marquee-item">Handcrafted in Tunisia</div>
-      <div class="marquee-item"><b>NEW</b> Spring Collection 2026</div>
-      <div class="marquee-item">Ethically Sourced Ingredients</div>
-      <div class="marquee-item">Free Shipping Over $40</div>
-      <div class="marquee-item">Handcrafted in Tunisia</div>
-    </div>
-  </div>
-
-  <!-- ── Hero ── -->
   <section id="home" class="hero">
-    <div class="hero-bg">
-      <img src="pics/hero-bg.jpeg" alt="Tunisian artisan food scene" />
-      <div class="hero-overlay"></div>
+    <div class="hero-bena-bg" aria-hidden="true">
+      <span class="bena-letter" style="--d:0s">B</span>
+      <span class="bena-letter" style="--d:.2s">E</span>
+      <span class="bena-letter" style="--d:.4s">N</span>
+      <span class="bena-letter" style="--d:.6s">N</span>
+      <span class="bena-letter" style="--d:.8s">A</span>
+    </div>
+    <div class="hero-particles" aria-hidden="true">
+      <div class="hparticle p1"></div>
+      <div class="hparticle p2"></div>
+      <div class="hparticle p3"></div>
+      <div class="hparticle p4"></div>
+      <div class="hparticle p5"></div>
+      <div class="hparticle p6"></div>
+      <div class="hparticle p7"></div>
+      <div class="hparticle p8"></div>
     </div>
 
     <div class="hero-content fade-in">
-      <div class="hero-sub">Handcrafted in Tunisia since 2026</div>
-      <h1 class="hero-title">Bena</h1>
-      <p class="hero-desc">
-        Ancient grains, wild honey &amp; olive oil — slow-baked in traditional stone ovens
-        and delivered to your door from the heart of North Africa.
-      </p>
 
-      <div class="hero-buttons">
-        <a href="#shop" class="btn1">Shop Collection</a>
-        <a href="#story" class="Btn2">Our Story</a>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-dot"></div>
       </div>
+  </section>
 
-      <div class="hero-quote">
-        <div class="hero-quote-line"></div>
+
+  <section class="badges-section">
+    <div class="container">
+      <div class="badges-row">
+        <div class="badge-cert-item fade-in" style="--delay:0s">
+          <div class="badge-cert-img-wrap">
+            <img src="pics/glutenfree.png" alt="Gluten Free" />
+          </div>
+          <span>Gluten Free</span>
+        </div>
+        <div class="badge-cert-sep fade-in" style="--delay:.2s">✦</div>
+        <div class="badge-cert-item fade-in" style="--delay:.4s">
+          <div class="badge-cert-img-wrap">
+            <img src="pics/lactose.webp" alt="Lactose Free" />
+          </div>
+          <span>Lactose Free</span>
+        </div>
+        <div class="badge-cert-sep fade-in" style="--delay:.6s">✦</div>
+        <div class="badge-cert-item fade-in" style="--delay:.8s">
+          <div class="badge-cert-img-wrap natural-badge">
+            <div class="natural-icon">🌿</div>
+          </div>
+          <span>100% Natural</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ── Story ── -->
   <section id="story" class="story">
     <div class="container">
       <div class="story-grid">
@@ -168,52 +126,31 @@
             <p class="badge-loc">Sousse</p>
           </div>
         </div>
-
         <div class="story-text fade-in">
           <p class="section-label">Our Heritage</p>
-          <h2 class="section-title">From Carthage<br />to <em>Bena</em></h2>
+          <h2 class="section-title">From Carthage<br />to <em>Benna</em></h2>
           <div class="section-divider"></div>
-
           <p class="story-intro">A recipe passed through the souks of Tunis, revived with love and intention.</p>
-
-          <p>
-            Bena revives the lost art of Tunisian bread-making. Using organic barley, sesame from Sfax,
-            and unfiltered Jebel honey, each bite is slow-baked in traditional stone ovens.
-            No additives, no shortcuts — just the honest taste of North Africa.
-          </p>
-
-          <p>
-            Every batch is handcrafted by local bakers in Sidi Bou Saïd, ensuring a perfect crunch and a golden hue
-            that mirrors the Tunisian sun over the Gulf of Tunis.
-          </p>
-
+          <p>Bena revives the lost art of Tunisian bread-making. Using organic barley, sesame from Sfax, and unfiltered
+            Jebel honey, each bite is slow-baked in traditional stone ovens. No additives, no shortcuts — just the
+            honest taste of North Africa.</p>
+          <p>Every batch is handcrafted by local bakers in Sidi Bou Saïd, ensuring a perfect crunch and a golden hue
+            that mirrors the Tunisian sun over the Gulf of Tunis.</p>
           <blockquote>
             <p>He who does not understand keeps quiet. We understand food.</p>
             <cite>— Tunisian proverb</cite>
           </blockquote>
-
           <a href="#shop" class="story-link">Discover our flavors <span>→</span></a>
+          <a href="shop.html" class="story-link">Discover our flavors <span>→</span></a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── Features Strip ── -->
-  <section class="features-strip">
-    <div class="container features-row">
-      <div class="feature fade-in"><span class="feature-icon">🌿</span><div><strong>100% Natural</strong><small>No additives</small></div></div>
-      <span class="feature-dot">✦</span>
-      <div class="feature fade-in"><span class="feature-icon">🔥</span><div><strong>Stone-Baked</strong><small>Ancient ovens</small></div></div>
-      <span class="feature-dot">✦</span>
-      <div class="feature fade-in"><span class="feature-icon">🌾</span><div><strong>Ancient Grains</strong><small>Barley, spelt</small></div></div>
-      <span class="feature-dot">✦</span>
-      <div class="feature fade-in"><span class="feature-icon">✋</span><div><strong>Handcrafted</strong><small>Small-batch</small></div></div>
-      <span class="feature-dot">✦</span>
-      <div class="feature fade-in"><span class="feature-icon">🌍</span><div><strong>Worldwide</strong><small>Free $40+</small></div></div>
-    </div>
-  </section>
 
-  <!-- ── Shop ── -->
+
+
+
   <section id="shop" class="products">
     <div class="container">
       <div class="section-header fade-in">
@@ -222,72 +159,71 @@
         <div class="section-divider"></div>
         <p class="section-sub">Pure ingredients, crafted with love from ancient Tunisian recipes</p>
       </div>
-
       <div class="products-grid">
         <div class="product-card slide-in-left" style="transition-delay:0s">
           <div class="product-img">
             <img src="pics/product-honey-sesame.jpg" alt="Honey & Sesame" loading="lazy" />
             <span class="product-badge badge-gold">Bestseller</span>
           </div>
+
           <div class="product-body">
-            <h3>Honey &amp; Sesame</h3>
+            <h3 class="product-name-shine">Honey &amp; Sesame</h3>
             <p>Wild thyme honey, toasted sesame, sea salt — a bite true to ancient Mediterranean tradition.</p>
             <div class="product-footer">
               <span class="product-price">$12.90 / 8 pcs</span>
-              <button class="pc-add" type="button" aria-label="Add Honey & Sesame to cart">🛒</button>
+              <button class="pc-add" type="button" aria-label="Add to cart">🛒</button>
             </div>
           </div>
         </div>
-
         <div class="product-card slide-in-left" style="transition-delay:0.15s">
           <div class="product-img">
             <img src="pics/product-olive-rosemary.jpg" alt="Olive & Rosemary" loading="lazy" />
           </div>
           <div class="product-body">
-            <h3>Olive &amp; Rosemary</h3>
+            <h3 class="product-name-shine">Olive &amp; Rosemary</h3>
             <p>Extra virgin olive oil, fresh rosemary from Zaghouan, cracked black pepper. Crisp and savory.</p>
             <div class="product-footer">
               <span class="product-price">$14.50 / 8 pcs</span>
-              <button class="pc-add" type="button" aria-label="Add Olive & Rosemary to cart">🛒</button>
+              <button class="pc-add" type="button" aria-label="Add to cart">🛒</button>
             </div>
           </div>
         </div>
-
         <div class="product-card slide-in-left" style="transition-delay:0.3s">
           <div class="product-img">
-            <img src="pics/product-fig-walnut.jpg" alt="Fig & Walnut" loading="lazy" />
+            <img src="pics/1.jpg" alt="Fig & Walnut" loading="lazy" />
           </div>
           <div class="product-body">
-            <h3>Fig &amp; Walnut</h3>
+            <h3 class="product-name-shine">Fig &amp; Walnut</h3>
             <p>Dried Djerba figs, crushed walnuts, cinnamon, and orange blossom water. Rich and warm.</p>
             <div class="product-footer">
               <span class="product-price">$16.90 / 8 pcs</span>
-              <button class="pc-add" type="button" aria-label="Add Fig & Walnut to cart">🛒</button>
+              <button class="pc-add" type="button" aria-label="Add to cart">🛒</button>
             </div>
           </div>
         </div>
-
         <div class="product-card slide-in-left" style="transition-delay:0.45s">
           <div class="product-img">
             <img src="pics/product-spiced-orange.jpg" alt="Spiced Orange" loading="lazy" />
             <span class="product-badge badge-terra">New</span>
           </div>
           <div class="product-body">
-            <h3>Spiced Orange</h3>
+            <h3 class="product-name-shine">Spiced Orange</h3>
             <p>Orange zest, cloves, and star anise — inspired by Tunisian spice routes. A seasonal celebration.</p>
             <div class="product-footer">
               <span class="product-price">$15.90 / 8 pcs</span>
-              <button class="pc-add" type="button" aria-label="Add Spiced Orange to cart">🛒</button>
+              <button class="pc-add" type="button" aria-label="Add to cart">🛒</button>
             </div>
           </div>
         </div>
       </div>
-
+      <div class="view-all-wrapper">
+        <a href="product.html" class="view-all-trigger">View All Products ✨</a>
+      </div>
       <p class="products-note">✦ Free delivery on all orders over $40 ✦</p>
     </div>
   </section>
 
-  <!-- ── Gallery ── -->
+
   <section id="gallery" class="gallery">
     <div class="container">
       <div class="section-header fade-in">
@@ -295,20 +231,18 @@
         <h2 class="section-title">Moments of<br /><em>Pure Crunch</em></h2>
         <div class="section-divider"></div>
       </div>
-
       <div class="carousel-scene" id="carouselScene">
         <div class="carousel-stage" id="carouselStage"></div>
       </div>
-
       <div class="carousel-controls">
         <button class="carousel-btn" id="carouselPrev" type="button" aria-label="Previous slide">←</button>
-        <div class="carousel-dots" id="carouselDots" aria-label="Carousel pagination"></div>
+        <div class="carousel-dots" id="carouselDots"></div>
         <button class="carousel-btn" id="carouselNext" type="button" aria-label="Next slide">→</button>
       </div>
     </div>
   </section>
 
-  <!-- ── Reviews ── -->
+
   <section id="reviews" class="reviews">
     <div class="container">
       <div class="section-header fade-in">
@@ -316,28 +250,27 @@
         <h2 class="section-title">Loved by the<br /><em>Bena Circle</em></h2>
         <div class="section-divider"></div>
       </div>
-
       <div class="reviews-grid">
         <div class="review-card fade-in">
           <div class="review-inner">
             <span class="review-quote">"</span>
-            <p>Finally a healthy snack that actually tastes extraordinary. The Honey &amp; Sesame is my daily ritual — morning mint tea and a Bena.</p>
+            <p>Finally a healthy snack that actually tastes extraordinary. The Honey &amp; Sesame is my daily ritual.
+            </p>
             <div class="review-footer"><span class="review-stars">★★★★★</span><span>— Leila B., Tunis</span></div>
           </div>
         </div>
-
         <div class="review-card fade-in">
           <div class="review-inner">
             <span class="review-quote">"</span>
-            <p>The texture is perfect — crunchy but not hard. Fig &amp; Walnut paired with morning coffee is something close to divine.</p>
+            <p>The texture is perfect — crunchy but not hard. Fig &amp; Walnut with morning coffee is close to divine.
+            </p>
             <div class="review-footer"><span class="review-stars">★★★★★</span><span>— Marcus T., London</span></div>
           </div>
         </div>
-
         <div class="review-card fade-in">
           <div class="review-inner">
             <span class="review-quote">"</span>
-            <p>Pure ingredients, beautiful packaging. I feel genuinely good about every bite. This is what food should always feel like.</p>
+            <p>Pure ingredients, beautiful packaging. I feel genuinely good about every bite.</p>
             <div class="review-footer"><span class="review-stars">★★★★★</span><span>— Sophia K., New York</span></div>
           </div>
         </div>
@@ -345,7 +278,7 @@
     </div>
   </section>
 
-  <!-- ── Contact ── -->
+
   <section id="contact" class="contact">
     <div class="container">
       <div class="contact-grid">
@@ -353,28 +286,22 @@
           <p class="section-label section-label-light">Stay Connected</p>
           <h2 class="contact-title">Send Us a<br /><em>Message</em></h2>
           <div class="section-divider divider-gold"></div>
-
-          <p class="contact-desc">
-            Get 10% off your first order and exclusive early access to new flavors, seasonal drops,
-            and the stories behind each recipe.
-          </p>
-
+          <p class="contact-desc">Get 10% off your first order and exclusive early access to new flavors and seasonal
+            drops.</p>
           <div class="contact-details">
             <div>📍 Sousse, Tunisia · Worldwide shipping</div>
             <div>📞 +216 71 234 567</div>
-            <div>✉️ welcome@bena.tn</div>
+            <div>✉️ welcome@benna.tn</div>
           </div>
-
           <div class="contact-arabic">
             <p class="arabic-text">الأكل الطيب يفرح القلب</p>
             <p class="arabic-sub">Good food delights the heart</p>
           </div>
         </div>
-
         <div class="contact-form fade-in">
           <p class="form-label">Send us a message</p>
           <form id="subscribeForm">
-            <input name="name"  type="text"  placeholder="Your name"  required />
+            <input name="name" type="text" placeholder="Your name" required />
             <input name="email" type="email" placeholder="Your email" required />
             <button type="submit" id="submitBtn">Send Us a Message →</button>
           </form>
@@ -384,12 +311,34 @@
     </div>
   </section>
 
-  <!-- ── Footer ── -->
   <footer class="footer">
-    <a href="#home" class="footer-logo">Bena</a>
-    <p class="footer-copy">© 2026 Bena — Artisan Healthy Bites, Sidi Bou Saïd</p>
+    <a href="#home" class="footer-logo">Benna</a>
+    <p class="footer-copy">©all rights reserved to Benna — Healthy Bites</p>
   </footer>
+
+  <a href="#" class="floating-cart" id="floatingCartBtn" aria-label="View cart">
+    <span class="floating-cart-icon">🛒</span>
+    <span class="floating-cart-count" id="cartCount">0</span>
+  </a>
+
+  <!-- Cart Overlay -->
+  <div class="cart-overlay" id="cartOverlay">
+
+    <div class="cart-modal-body" id="cartItems">
+      <p id="emptyMsg" class="cart-empty-msg">
+        Votre panier est vide.
+      </p>
+    </div>
+    <div class="cart-modal-body">
+      <p class="cart-empty-msg">Vous avez <span id="cartModalCount">0</span> article(s) dans votre panier.</p>
+    </div>
+    <div class="cart-modal-footer">
+      <a href="panier.html" class="nav-join view-cart-btn">Voir tout le panier</a>
+    </div>
+  </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
